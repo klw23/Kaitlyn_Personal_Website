@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .banner-container {
+    position: relative;
+  }
+  
+  
+  .top-left-flower,
+  .top-right-flower {
+    position: absolute;
+  }
+  
+  .top-left-flower {
+    top: -125px;
+    left: -125px;
+  }
+  
+  .top-right-flower {
+    bottom: -125px;
+    right: -125px;
+  }
+  
+  @media (max-width: 900px) {
+    .banner {
+      height: 400px;
+      width: 240px;
+
+    }
+    .top-left-flower,
+    .top-right-flower {
+      display: none;
+    }
+  }
+
+@media (max-width: 500px) {
+    .banner {
+      height: 400px;
+      width: 50px;
+    }
+    .top-left-flower,
+    .top-right-flower {
+      display: none;
+    }
+}
