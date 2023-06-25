@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@300;600&display=swap");
+
+.projects-container {
+  min-height: 100vh;
+  background-color: rgb(30, 29, 28);
+  overflow: scroll;
+}
+
+.projects-header-title {
+  margin-top: 40px;
+  font-family: "Karla", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  /* text-shadow: 0 4px 6px rgba(0, 0, 0, 0.8); */
+  color: white;
+}
+
+.projects-header-subtitle {
+  margin-top: 20px;
+  font-family: "Karla", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  color:rgb(172, 153, 145);
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+
+.projects-header-contact-me {
+  margin-top: 0;
+  font-family: "Karla", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  color:rgb(172, 153, 145);
+  text-decoration: underline;
+  font-style: none;
+}
+
+
+.projects-header-contact-me.active {
+  color: white! important;
+  font-family: "Karla", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.projects-header-contact-me:hover {
+  color: white !important;
+}

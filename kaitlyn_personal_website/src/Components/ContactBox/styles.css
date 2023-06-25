@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@300;400;600&display=swap");
+
+.contact-form {
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  margin-top: 30px;
+  background-color: rgb(172, 153, 145);
+
+}
+
+.form-group {
+  padding: 10px;
+  margin-top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+.contact-submit-button {
+    font-family: 'Karla', sans-serif;
+    font-weight: 300;
+    color: black;
+    border: none;
+    background-color: white;
+    margin-top: 10px;
+    box-shadow: 2px 4px 8px rgba(0,0,0,0.2);
+}
+
+.contact-submit-button:hover {
+    cursor: pointer;
+    box-shadow: 2px 4px 8px rgba(0,0,0,0.5);
+  }
+
+.contact-submit-button:active {
+    transform: translateY(1px);
+  }
+
+.contact-label {
+    font-family: 'Karla', sans-serif;
+    font-weight: 300;
+    color: black;
+    padding-right: 10px;
+}
+  
+
+.contact-label-star {
+    font-family: 'Karla', sans-serif;
+    font-weight: 300;
+    color: pink;
+    padding-right: 10px;
+}

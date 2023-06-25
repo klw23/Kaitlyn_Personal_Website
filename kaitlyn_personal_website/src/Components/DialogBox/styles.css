@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;600&display=swap');
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1040;
+}
+
+.modal {
+    z-index: 1050;
+}
+
+.modal-header {
+    background-color: rgb(172, 153, 145);
+    border: none;
+}
+
+.modal-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(30, 29, 28);
+  }
+
+.video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .video-project {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .modal-title {
+    font-family: "Karla", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    /* text-shadow: 0 4px 6px rgba(0, 0, 0, 0.8); */
+    color: white;
+  }
+
+  .video-description {
+    font-family: "Karla", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 10px;
+    color: rgb(172, 153, 145);
+    padding: 10px;
+
+}
+
+  .modal-footer {
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    background-color: rgb(172, 153, 145);
+    border:none;
+  }
+
+  .tech-stack {
+    margin-top: 10px;
+    color: white;
+    font-family: "Karla", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    font-style: italic;
+    padding-bottom: 10px;
+  }
+
+
+  .icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .icon-container i {
+    margin-right: 8px;
+    color: rgb(172, 153, 145);
+  }
+  
+  .icon-container .tech-stack {
+    text-align: center;
+  }
+
+
+  .link-to-github {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .link-to-github:hover {
+    color: white;
+    text-decoration: none;
+  }

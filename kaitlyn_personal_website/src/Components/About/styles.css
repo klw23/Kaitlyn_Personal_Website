@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@300;400;600&display=swap");
+
+.about-container {
+  min-height: 100vh;
+  background-color: rgb(30, 29, 28);
+  overflow: scroll;
+}
+
+.about-header-title {
+  margin-top: 40px;
+  font-family: "Karla", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  /* text-shadow: 0 4px 6px rgba(0, 0, 0, 0.8); */
+  color: white;
+}
+
+.about-headshot {
+  width: 250px;
+  height: 250px;
+  box-shadow: 0px 10px -14px 14px #fff;
+  margin-top: 10px;
+}
+
+.about-paragraph {
+  font-family: "Karla", sans-serif;
+  font-weight: 300;
+  color: rgb(172, 153, 145);
+  margin: 50px;
+  text-align: center;
+}
+
+.about-download-resume-button {
+  font-family: "Karla", sans-serif;
+  font-weight: 300;
+  color: black;
+  border: none;
+  background-color: rgb(172, 153, 145);
+}
+
+.about-download-resume-button:hover {
+  cursor: pointer;
+  background-color: lightgray;
+}
+
+.about-download-resume-button:active {
+  transform: translateY(1px);
+}

@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;600&display=swap');
+
+html {
+  overflow-y: scroll;
+}
+
+.landing {
+  background-image: url('../../../public/images/sunset-photo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: scroll;
+  background-attachment: fixed;
+}
+
+.row-landing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+} 
+
+
+.landing-title {
+  text-align: center;
+  font-family: 'Karla', sans-serif;
+  font-weight: 600;
+  font-size: 80px;
+  text-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  color:white;
+}
+
+.landing-learn-more-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.landing-learn-more-button {
+  font-family: 'Karla', sans-serif;
+  font-weight: 300;
+  color: black;
+  border: none;
+  background-color: white;
+}
+
+
+.landing-learn-more-button:hover {
+  cursor: pointer;
+  box-shadow: 2px 4px 8px rgba(0,0,0,0.5);
+}
+
+.landing-learn-more-button:active {
+  transform: translateY(1px);
+}
+
+.landing-loader-container {
+  background-color: #ffffff; /* Replace with your desired background color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

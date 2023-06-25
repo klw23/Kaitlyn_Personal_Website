@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;600&display=swap');
+
+
+.projects-square-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+.project-square-button {
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    position: relative;
+    overflow: hidden;
+    background: none;
+    display: block;
+}
+
+.project-photo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+
+.project-square-button:hover {
+    transform: translateY(2px);
+    opacity: 0.2;
+
+}
+
+  
+.project-square-button:active {
+    transform: translateY(3px);
+}
+  

@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@300;400;600&display=swap");
+
+.row-work-experience-card {
+  max-height: 30vh;
+  overflow: auto;
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: dark;
+}
+
+.row-work-experience-card ::-webkit-scrollbar {
+  width: 5px;
+}
+
+.row-work-experience-card ::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.row-work-experience-card ::-webkit-scrollbar-thumb {
+  background: rgb(172, 153, 145);
+}
+
+.row-work-experience-card ::-webkit-scrollbar-thumb:hover {
+  background: rgb(172, 153, 145);
+}
+
+.work-experience-card-header-small-title {
+  font-family: "Karla", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: white;
+  margin-top: 50px;
+}
+
+.work-experience-card-company-photo {
+  width: 70px;
+  height: 70px;
+}
+
+.work-experience-card-header-duration-title {
+  font-family: "Karla", sans-serif;
+  font-weight: 200;
+  font-size: 15px;
+  color: rgb(172, 153, 145);
+  font-style: italic;
+}
+
+.work-experience-card-paragraph {
+  font-family: "Karla", sans-serif;
+  font-weight: 300;
+  color: rgb(172, 153, 145);
+  margin: 50px;
+  text-align: center;
+}
