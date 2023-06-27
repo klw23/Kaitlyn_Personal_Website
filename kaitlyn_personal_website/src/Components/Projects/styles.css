@@ -25,6 +25,13 @@
   margin-bottom: 0;
 }
 
+.loading-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
 
 .projects-header-contact-me {
   margin-top: 0;

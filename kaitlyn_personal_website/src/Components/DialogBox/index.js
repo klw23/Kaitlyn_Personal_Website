@@ -32,9 +32,11 @@ function DialogBox(props) {
                             </div>
                         </div>
                         <div className="modal-footer">
-                            <a className="link-to-github" href="https://github.com" target="_blank" rel="noopener noreferrer">
-                                <i className="icon-github fab fa-github fa-lg"></i>
-                            </a>
+                            {props.hasGithub && props.linkToGithub &&
+                                <a className="link-to-github" href="https://github.com" target="_blank" rel="noopener noreferrer">
+                                    <i className="icon-github fab fa-github fa-lg"></i>
+                                </a>
+                            }
                             <button type="button" className="btn-close" onClick={props.handleClose}></button>
                         </div>
                     </div>

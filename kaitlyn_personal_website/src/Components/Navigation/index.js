@@ -6,7 +6,6 @@ import { Navbar, Nav } from 'react-bootstrap';
 
 function Navigation() {
   const location = useLocation();
-  console.log(location)
   return (
     <div className="navigation-container">
         {/* <h1 className="left-text">Kaitlyn Wong</h1>  */}
