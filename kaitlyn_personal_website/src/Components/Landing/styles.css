@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;600&display=swap');
 
 html {
   overflow-y: scroll;
 }
 
-.landing {
-  background-image: url('../../../public/images/sunset-photo.jpg');
+.landing-page {
+  /* background-image: url('../../../public/images/sunset-photo.jpg'); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -13,7 +13,7 @@ html {
   background-attachment: fixed;
 }
 
-.row-landing {
+.row-landing-page {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -21,7 +21,7 @@ html {
 } 
 
 
-.landing-title {
+.landing-page-title {
   text-align: center;
   font-family: 'Karla', sans-serif;
   font-weight: 600;
@@ -30,34 +30,26 @@ html {
   color:white;
 }
 
-.landing-learn-more-div {
+.landing-page-learn-more-div {
   display: flex;
   justify-content: center;
   margin-top: 15px;
 }
 
-.landing-learn-more-button {
+.landing-page-learn-more-button {
   font-family: 'Karla', sans-serif;
-  font-weight: 300;
-  color: black;
-  border: none;
+  font-weight: 400;
+  color: rgb(187,175,173);
+  border: 1px solid rgb(172, 153, 145);
   background-color: white;
 }
 
-
-.landing-learn-more-button:hover {
+.landing-page-learn-more-button:hover {
   cursor: pointer;
   box-shadow: 2px 4px 8px rgba(0,0,0,0.5);
+  border: none;
 }
 
-.landing-learn-more-button:active {
+.landing-page-learn-more-button:active {
   transform: translateY(1px);
-}
-
-.landing-loader-container {
-  background-color: #ffffff; /* Replace with your desired background color */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
 }

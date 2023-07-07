@@ -1,48 +1,79 @@
 @import url("https://fonts.googleapis.com/css2?family=Karla:wght@300;400;600&display=swap");
 
-.about-container {
+.about-page-container {
   min-height: 100vh;
   background-color: rgb(30, 29, 28);
-  overflow: scroll;
+  overflow-y: auto;
 }
 
-.about-header-title {
+.about-page-header-title {
   margin-top: 40px;
   font-family: "Karla", sans-serif;
   font-weight: 600;
   font-size: 30px;
-  /* text-shadow: 0 4px 6px rgba(0, 0, 0, 0.8); */
   color: white;
+  margin-left: 20px;
 }
 
-.about-headshot {
-  width: 250px;
-  height: 250px;
-  box-shadow: 0px 10px -14px 14px #fff;
-  margin-top: 10px;
+.about-page-headshot {
+  height: 100vh;
+  object-fit: cover;
+  opacity: 40%;
 }
 
-.about-paragraph {
+@media (max-width: 1000px) { 
+  .about-page-headshot {
+    height: 130vh;
+  }
+}
+
+@media (max-width: 500px) { 
+  .about-page-headshot {
+    height: 50vh;
+  }
+}
+
+.about-page-education-technology {
   font-family: "Karla", sans-serif;
   font-weight: 300;
   color: rgb(172, 153, 145);
-  margin-top: 50px;
+  margin-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+.about-page-list-title {
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+  color: rgb(187,175,173);
+  /* font-style: underline;
+  border-bottom: 2px solid rgb(172, 153, 145); */
+}
+
+
+
+.about-page-description {
+  font-family: "Karla", sans-serif;
+  font-weight: 300;
+  color: rgb(172, 153, 145);
+  margin-top: 20px;
   text-align: center;
 }
 
-.about-download-resume-button {
+.about-page-download-resume-button {
   font-family: "Karla", sans-serif;
   font-weight: 300;
   color: black;
   border: none;
   background-color: rgb(172, 153, 145);
+  margin-top: 20px;
 }
 
-.about-download-resume-button:hover {
+.about-page-download-resume-button:hover {
   cursor: pointer;
   background-color: lightgray;
 }
 
-.about-download-resume-button:active {
+.about-page-download-resume-button:active {
   transform: translateY(1px);
 }

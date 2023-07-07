@@ -13,14 +13,10 @@ function Experience() {
     };
 
     if (data === null) {
-        return (
-            <div className="loading-container">
-                <img src="../../../images/spinner.svg" alt="Loading" className="spinner" />
-            </div>
-        )
-      }
+        console.log("loading page..")
+    }
 
-    if (data) {
+    else {
         return (
             <>
                 <Navigation />
@@ -49,49 +45,49 @@ function Experience() {
                                 </button>
                             </div>
                             {activeTab === 'Work' &&
-                               <>
-                               {data
-                                 .filter((item) => item.typeOfExperience === 'Work')
-                                 .map((item) => (
-                                   <WorkExperienceCard
-                                     key={item._id}
-                                     title={item.titleOfJob}
-                                     duration={item.duration}
-                                     description={item.description}
-                                     pathToImage={item.pathToImage}
-                                   />
-                                 ))}
-                             </>
+                                <>
+                                    {data
+                                        .filter((item) => item.typeOfExperience === 'Work')
+                                        .map((item) => (
+                                            <WorkExperienceCard
+                                                key={item._id}
+                                                title={item.titleOfJob}
+                                                duration={item.duration}
+                                                description={item.description}
+                                                pathToImage={item.pathToImage}
+                                            />
+                                        ))}
+                                </>
                             }
-                              {activeTab === 'Teaching' &&
-                               <>
-                               {data
-                                 .filter((item) => item.typeOfExperience === 'Teaching')
-                                 .map((item) => (
-                                   <WorkExperienceCard
-                                     key={item._id}
-                                     title={item.titleOfJob}
-                                     duration={item.duration}
-                                     description={item.description}
-                                     pathToImage={item.pathToImage}
-                                   />
-                                 ))}
-                             </>
+                            {activeTab === 'Teaching' &&
+                                <>
+                                    {data
+                                        .filter((item) => item.typeOfExperience === 'Teaching')
+                                        .map((item) => (
+                                            <WorkExperienceCard
+                                                key={item._id}
+                                                title={item.titleOfJob}
+                                                duration={item.duration}
+                                                description={item.description}
+                                                pathToImage={item.pathToImage}
+                                            />
+                                        ))}
+                                </>
                             }
                             {activeTab === 'Activities' &&
-                               <>
-                               {data
-                                 .filter((item) => item.typeOfExperience === 'Activities')
-                                 .map((item) => (
-                                   <WorkExperienceCard
-                                     key={item._id}
-                                     title={item.titleOfJob}
-                                     duration={item.duration}
-                                     description={item.description}
-                                     pathToImage={item.pathToImage}
-                                   />
-                                 ))}
-                             </>
+                                <>
+                                    {data
+                                        .filter((item) => item.typeOfExperience === 'Activities')
+                                        .map((item) => (
+                                            <WorkExperienceCard
+                                                key={item._id}
+                                                title={item.titleOfJob}
+                                                duration={item.duration}
+                                                description={item.description}
+                                                pathToImage={item.pathToImage}
+                                            />
+                                        ))}
+                                </>
                             }
 
                         </div>

@@ -19,6 +19,7 @@
     overflow: hidden;
     background: none;
     display: block;
+    opacity: 100%;
 }
 
 .project-photo {

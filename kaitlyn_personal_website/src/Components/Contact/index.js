@@ -7,16 +7,12 @@ import ContactForm from "../ContactBox";
 import ContactData from "./contactData";
 
 function Contact() {
-    
+
     const { data } = ContactData()
     if (data === null) {
-        return (
-            <div className="loading-container">
-                <img src="../../../images/spinner.svg" alt="Loading" className="spinner" />
-            </div>
-        )
+        console.log("loading page..")
     }
-    if (data) {
+    else {
         return (
             <>
                 <Navigation />

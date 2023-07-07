@@ -5,6 +5,7 @@ import DialogBox from '../DialogBox';  // path to your DialogBox component
 
 
 function ProjectsSquare(props) {
+
     const [dialogOpen, setDialogOpen] = useState(false);
 
     function handleProjectPhotoClick() {

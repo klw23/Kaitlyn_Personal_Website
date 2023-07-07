@@ -33,7 +33,7 @@ function DialogBox(props) {
                         </div>
                         <div className="modal-footer">
                             {props.hasGithub && props.linkToGithub &&
-                                <a className="link-to-github" href="https://github.com" target="_blank" rel="noopener noreferrer">
+                                <a className="link-to-github" href={props.linkToGithub} target="_blank" rel="noopener noreferrer">
                                     <i className="icon-github fab fa-github fa-lg"></i>
                                 </a>
                             }
