@@ -4,7 +4,7 @@ const LandingData = () => {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    fetch("http://localhost:4000/landing")
+    fetch(`${process.env.REACT_APP_API_BASE}/landing`)
       .then((response) => {
         if (response.ok) {
           return response.json();

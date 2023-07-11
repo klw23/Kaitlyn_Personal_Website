@@ -4,7 +4,7 @@ const ExperienceData = () => {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    fetch("http://localhost:4000/experience")
+    fetch(`${process.env.REACT_APP_API_BASE}/experience`)
       .then((response) => {
         if (response.ok) {
           return response.json();

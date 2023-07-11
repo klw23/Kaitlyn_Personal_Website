@@ -4,7 +4,7 @@ const ContactData = () => {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    fetch("http://localhost:4000/contacts")
+    fetch(`${process.env.REACT_APP_API_BASE}/contacts`)
       .then((response) => {
         if (response.ok) {
           return response.json();

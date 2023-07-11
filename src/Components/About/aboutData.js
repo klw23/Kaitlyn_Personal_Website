@@ -4,7 +4,7 @@ const AboutData = () => {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    fetch("http://localhost:4000/about")
+    fetch(`${process.env.REACT_APP_API_BASE}/about`)
       .then((response) => {
         if (response.ok) {
           return response.json();
