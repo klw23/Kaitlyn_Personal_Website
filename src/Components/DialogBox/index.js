@@ -32,6 +32,7 @@ function DialogBox(props) {
                             </div>
                         </div>
                         <div className="modal-footer">
+                            {props.imageCredit && <h1 className="image-credits"> image by {props.imageCredit} </h1>}
                             {props.hasGithub && props.linkToGithub &&
                                 <a className="link-to-github" href={props.linkToGithub} target="_blank" rel="noopener noreferrer">
                                     <i className="icon-github fab fa-github fa-lg"></i>

@@ -41,6 +41,7 @@ function Projects() {
                                                 techStack={item.techStack}
                                                 hasGithub={item.hasGithub}
                                                 linkToGithub={item.linkToGithub}
+                                                imageCredit={item.imageCredit}
                                             />
                                         </div>
                                     ))}
