@@ -4,6 +4,7 @@
   min-height: 100vh;
   background-color: rgb(30, 29, 28);
   overflow: scroll;
+  padding-bottom: 20px;
 }
 
 .contact-header-title {
