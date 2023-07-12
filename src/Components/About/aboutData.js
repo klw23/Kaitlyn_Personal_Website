@@ -4,7 +4,7 @@ const AboutData = () => {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    fetch(`${process.env.REACT_APP_API_BASE}/about`)
+    fetch(`${process.env.REACT_APP_API_BASE}about`)
       .then((response) => {
         if (response.ok) {
           return response.json();
