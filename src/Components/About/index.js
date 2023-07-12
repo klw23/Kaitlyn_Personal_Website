@@ -13,16 +13,16 @@ function About() {
         <Navigation />
         <div className="about-page-container">
           <div className="row align-items-center justify-content-center">
-            <div className="col-sm-12 col-md-12 col-lg-6">
+            <div className="col-sm-12 col-md-12 col-lg-5">
               <div className="about-page-headshot-container">
                 <img src={data[0].pathToHeadshot} className="img-fluid about-page-headshot" alt="Headshot" />
               </div>
             </div>
-            <div className="col-sm-12 col-md-12 col-lg-6">
+            <div className="col-sm-12 col-md-12 col-lg-5">
               <div className="row align-items-center justify-content-flex-start text-center"
-                  style={{
-                     paddingLeft: "25px",
-                  }}              
+                  // style={{
+                  //    paddingLeft: "25px",
+                  // }}              
                 >
                 <div className="col-sm-12 col-md-12 col-lg-10">
               <h1 className="about-page-header-title"> {data[0]?.name}</h1>
