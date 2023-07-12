@@ -24,6 +24,12 @@
   opacity: 40%;
 }
 
+.about-page-headshot-container {
+  display: flex;
+  justify-content: end;
+  padding-left: 50px;
+}
+
 
 .about-page-education-technology {
   font-family: "Karla", sans-serif;
