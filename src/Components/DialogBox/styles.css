@@ -62,8 +62,8 @@
 
   .modal-footer {
     display: flex;
-    align-items: start;
-    justify-content: end;
+    align-items: flex-start;
+    justify-content: flex-end;
     background-color: rgb(172, 153, 145);
     border:none;
   }
@@ -111,4 +111,11 @@
   .link-to-github:hover {
     color: white;
     text-decoration: none;
+  }
+
+  
+  @media (min-width: 1000px) {
+    .modal-dialog {
+      max-width: 800px;  /* Adjust this value to suit your needs */
+    }
   }
