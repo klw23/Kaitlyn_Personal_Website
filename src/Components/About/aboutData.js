@@ -2,9 +2,14 @@ import { useState, useEffect } from "react";
 
 const AboutData = () => {
   const [data, setData] = useState(null);
-
-  useEffect(() => {
-    fetch(`${process.env.REACT_APP_API_BASE}about`)
+  let url = ""
+  if (process.env.REACT_APP_API_BASE === undefined) {
+    url = "http://localhost:4000/about";
+  }
+  else {
+    url = `${process.env.REACT_APP_API_BASE}about`;
+  }  useEffect(() => {
+    fetch(url)
       .then((response) => {
         if (response.ok) {
           return response.json();

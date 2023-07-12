@@ -2,9 +2,15 @@ import { useState, useEffect } from "react";
 
 const ContactData = () => {
   const [data, setData] = useState(null);
-
+  let url = ""
+  if (process.env.REACT_APP_API_BASE === undefined) {
+    url = "http://localhost:4000/contacts";
+  }
+  else {
+    url = `${process.env.REACT_APP_API_BASE}contacts`;
+  }
   useEffect(() => {
-    fetch(`${process.env.REACT_APP_API_BASE}contacts`)
+    fetch(url)
       .then((response) => {
         if (response.ok) {
           return response.json();
