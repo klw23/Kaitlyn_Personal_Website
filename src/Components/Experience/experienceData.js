@@ -9,6 +9,7 @@ const ExperienceData = () => {
   else {
     url = `${process.env.REACT_APP_API_BASE}experience`;
   }
+  console.log("url ", url)
   useEffect(() => {
     fetch(url)
       .then((response) => {
