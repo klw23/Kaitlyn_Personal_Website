@@ -60,6 +60,7 @@
   border: none;
   background-color: rgb(172, 153, 145);
   margin-top: 20px;
+  margin-left: 20px;
 }
 
 .about-page-download-resume-button:hover {

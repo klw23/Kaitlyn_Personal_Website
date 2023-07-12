@@ -23,17 +23,17 @@ function Contact() {
                             <h2 className="contact-header-subtitle"> I would love to get to know you better! </h2>
                         </div>
                         <div className="row align-items-center justify-content-center text-center">
-                            <div className="col-sm-12 col-md-12 col-lg-4">
-                                <a className="link-contact" href={`mailto:@kaitlynwong23`}>
+                            <div className="col-sm-12 col-md-12 col-lg-3">
+                                <a className="link-contact" href={`mailto:kaitlynwong861@gmail.com`}>
                                     <i class="contact-icon fa-solid fa-envelope fa-3x"></i>
                                     <h1 className="contact-header-title"> EMAIL </h1>
                                     <h1 className="contact-header-subtitle"> {data[0]?.email} </h1>
                                 </a>
                             </div>
-                            <div className="col-sm-12 col-md-12 col-lg-4">
+                            <div className="col-sm-12 col-md-12 col-lg-3">
                                 <ContactForm />
                             </div>
-                            <div className="col-sm-12 col-md-12 col-lg-4">
+                            <div className="col-sm-12 col-md-12 col-lg-3">
                                 <a className="link-contact" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/kaitlynwong23">
                                     <i class="contact-icon fa-brands fa-linkedin fa-3x"></i>
                                     <h1 className="contact-header-title"> LINKEDIN </h1>
@@ -42,12 +42,6 @@ function Contact() {
                             </div>
 
                         </div>
-                        {/* <div className="row align-items-center justify-content-center text-center">
-                        <div className="col-sm-12 col-md-12 col-lg-4 ">
-                            <ContactForm />
-                        </div>
-
-                    </div> */}
                     </div>
                 </div>
             </>
