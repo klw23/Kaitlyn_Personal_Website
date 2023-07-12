@@ -21,7 +21,7 @@ function Experience() {
             <>
                 <Navigation />
                 <div className="experience-container">
-                    <div className="row align-items-start justify-content-center text-center">
+                    <div className="row align-items-flex-start justify-content-center text-center">
                         <div className="col-sm-12 col-md-12 col-lg-12">
                             <h1 className="experience-header-title"> EXPERIENCE </h1>
                             <div className="tab-buttons">

@@ -17,7 +17,7 @@ function Contact() {
             <>
                 <Navigation />
                 <div className="contact-container">
-                    <div className="row align-items-start justify-content-center text-center">
+                    <div className="row align-items-flex-start justify-content-center text-center">
                         <div className="col-sm-10 col-md-8 col-lg-6">
                             <h1 className="contact-header-title"> LET'S CONNECT </h1>
                             <h2 className="contact-header-subtitle"> I would love to get to know you better! </h2>
