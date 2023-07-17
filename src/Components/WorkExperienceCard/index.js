@@ -6,7 +6,7 @@ function WorkExperienceCard(props) {
         <>
             <div className="experience-card-container">
                 <div className="row row-work-experience-card align-items-start justify-content-center">
-                    <div className="col-sm-12 col-md-8 col-lg-3">
+                    <div className="col-sm-12 col-md-12 col-lg-3">
                         <p className="work-experience-card-header-small-title mb-1">
                             {props.title}
                         </p>
@@ -15,22 +15,20 @@ function WorkExperienceCard(props) {
                         </p>
                         <img src={props.pathToImage} className="img-fluid work-experience-card-company-photo" alt="company" />
                     </div>
-                    <div className="col-sm-12 col-md-8 col-lg-7">
+                    <div className="col-sm-12 col-md-12 col-lg-7">
                         <p className="work-experience-card-paragraph">
                             <ul>
                             {props?.description.map((bullet) => (
                                 <li> {bullet} </li>
                             ))}
                             </ul>
-                           
                         </p>
                     </div>
                 </div>
             </div>
-
         </>
     )
-
 }
+
 
 export default WorkExperienceCard;

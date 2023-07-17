@@ -1,23 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Karla:wght@300;400;600&display=swap");
 
 .experience-card-container {
-  padding-right: 35px; /* adjust as needed */
-}
-
-.row-work-experience-card {
-  max-height: 30vh;
-  overflow-y: auto;
-  scrollbar-width: thin; /* For Firefox */
-  scrollbar-color: rgba(155, 155, 155, 0.7) transparent; /* For Firefox */
-}
-
-.row-work-experience-card::-webkit-scrollbar { /* For Chrome, Safari, and Edge */
-  width: 5px;
-}
-
-.row-work-experience-card::-webkit-scrollbar-thumb { /* For Chrome, Safari, and Edge */
-  background: rgb(172, 153, 145);
-  border-radius: 10px;
+  padding: 10px; 
 }
 
 .work-experience-card-header-small-title {
