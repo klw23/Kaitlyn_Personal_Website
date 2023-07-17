@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Karla:wght@300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;600&display=swap");
 
 .contact-form {
   padding: 20px;
@@ -11,6 +11,12 @@
 
 }
 
+.text-box { 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .form-group {
   padding: 10px;
   margin-top: 0px;
@@ -20,6 +26,11 @@
 
 }
 
+.text-box {
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(245,245,245);
+}
 
 .contact-submit-button {
     font-family: 'Karla', sans-serif;
@@ -29,6 +40,9 @@
     background-color: white;
     margin-top: 10px;
     box-shadow: 2px 4px 8px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    background-color: rgb(245,245,245);
+
 }
 
 .contact-submit-button:hover {
@@ -42,15 +56,9 @@
 
 .contact-label {
     font-family: 'Karla', sans-serif;
-    font-weight: 300;
-    color: black;
-    padding-right: 10px;
+    font-weight: 200;
+    color: white;
+    display: inline-block;
+    width: 110px; 
 }
   
-
-.contact-label-star {
-    font-family: 'Karla', sans-serif;
-    font-weight: 300;
-    color: pink;
-    padding-right: 10px;
-}

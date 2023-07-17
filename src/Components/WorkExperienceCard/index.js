@@ -15,7 +15,7 @@ function WorkExperienceCard(props) {
                         </p>
                         <img src={props.pathToImage} className="img-fluid work-experience-card-company-photo" alt="company" />
                     </div>
-                    <div className="col-sm-12 col-md-8 col-lg-6">
+                    <div className="col-sm-12 col-md-8 col-lg-7">
                         <p className="work-experience-card-paragraph">
                             <ul>
                             {props?.description.map((bullet) => (

@@ -12,7 +12,7 @@
   font-family: "Karla", sans-serif;
   font-weight: 600;
   font-size: 30px;
-  color: white;
+  color: rgb(245,245,245);
 }
 
 .contact-header-subtitle {
@@ -24,11 +24,11 @@
 }
 
 .contact-icon {
-  color: white;
+  color: rgb(245,245,245);
   margin-top: 40px;
   size: 100px;
 }
 
 .link-contact {
-      text-decoration: none;
+  text-decoration: none;
 }
