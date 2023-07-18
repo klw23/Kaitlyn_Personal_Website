@@ -18,7 +18,7 @@ function Navigation() {
           backgroundImage: `url('${data[0].pathToImage}')`,
         }}
       >
-        <Navbar collapseOnSelect expand="lg">
+        <Navbar collapseOnSelect expand="lg" className="justify-content-end">
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ml-auto">
@@ -60,6 +60,7 @@ function Navigation() {
             </Nav>
           </Navbar.Collapse>
         </Navbar>
+
       </div>
     );
   }

@@ -9,6 +9,12 @@
   background-size: cover;
 }
 
+@media screen and (max-width: 992px) { 
+  .navigation-container {
+    justify-content: flex-end !important;
+  }
+}
+
 .nav-link {
   color: white;
   text-decoration: none;

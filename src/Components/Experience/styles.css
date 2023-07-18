@@ -3,8 +3,13 @@
 .experience-container {
   height: 100vh;
   background-color: #1e1d1c;
-  overflow: scroll;
 }
+
+body {
+  min-height: 100vh;
+  background-color: #1e1d1c;
+}
+
 
 .activeTab {
   background-color: rgb(172, 153, 145);
