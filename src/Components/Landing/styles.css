@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;600&display=swap');
 
-html {
-  overflow-y: scroll;
+html, body{
+  /* overflow-y: scroll; */
+  margin: 0;
+  padding: 0;
 }
 
 .landing-page {
-  /* background-image: url('../../../public/images/sunset-photo.jpg'); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  overflow: scroll;
+  /* overflow: scroll; */
   background-attachment: fixed;
 }
 
@@ -17,7 +18,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  min-height: 100vh;
 } 
 
 
