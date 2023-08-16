@@ -30,7 +30,7 @@ function Contact() {
                                     <h1 className="contact-header-subtitle"> {data[0]?.email} </h1>
                                 </a>
                             </div>
-                            <div className="col-sm-12 col-md-12 col-lg-3">
+                            <div className="col-sm-12 col-md-12 col-lg-4">
                                 <ContactForm />
                             </div>
                             <div className="col-sm-12 col-md-12 col-lg-3">
