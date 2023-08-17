@@ -48,6 +48,9 @@ function Landing() {
               )}
             </div>
           </div>
+          <div className="landing-page-credits-div">
+                    <h1 className="landing-page-credits">{data[0].imageCredits}</h1>
+          </div>
         </div>
       </div>
     );
